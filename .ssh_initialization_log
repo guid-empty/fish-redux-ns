@@ -1,0 +1,3 @@
+SSH_AUTH_SOCK=/var/folders/mt/gvhzj1hd55q8ftym9y7mf9xcl9zf3y/T//ssh-EUQ0Jub3I2u0/agent.58352; export SSH_AUTH_SOCK;
+SSH_AGENT_PID=58353; export SSH_AGENT_PID;
+echo Agent pid 58353;
