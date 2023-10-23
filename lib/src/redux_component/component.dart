@@ -28,7 +28,7 @@ abstract class Component<T> extends Logic<T> implements AbstractComponent<T> {
   /// 可空 【component_extensions.dart#14】 view？ reducer? effect?
   Component({
     /// 可空
-    @required ViewBuilder<T>? view,
+    required ViewBuilder<T>? view,
 
     /// 可空
     Reducer<T>? reducer,

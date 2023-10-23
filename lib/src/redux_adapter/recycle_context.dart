@@ -11,7 +11,7 @@ class RecycleContext<T> extends AdapterContext<T> {
 
   RecycleContext({
     required AbstractAdapter<T> logic,
-    @required required Store<Object> store,
+    required Store<Object> store,
     required BuildContext buildContext,
     required Get<T> getState,
     required DispatchBus bus,

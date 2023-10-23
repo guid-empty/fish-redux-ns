@@ -30,6 +30,7 @@ mixin PrivateReducerMixin<T> on Logic<T> {
         action = PrivateAction(
           action.type,
           payload: action.payload,
+
           ///todo（不确定）
           target: ctx.state as Object,
         );
@@ -40,7 +41,7 @@ mixin PrivateReducerMixin<T> on Logic<T> {
 }
 
 class PrivateAction extends Action {
-  final Object target;
+  final Object? target;
   PrivateAction(Object type, {dynamic payload, required this.target})
       : super(type, payload: payload);
 
